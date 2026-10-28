@@ -1,0 +1,48 @@
+// 5 cuốn sách mẫu được khởi tạo ở lần chạy đầu tiên
+export const SAMPLE_BOOKS = [
+  {
+    id: '1',
+    title: 'Lập trình React Native',
+    author: 'Nguyễn Văn An',
+    category: 'Giáo trình',
+    year: 2022,
+    quantity: 10,
+    borrowed: 3,
+  },
+  {
+    id: '2',
+    title: 'Dế Mèn Phiêu Lưu Ký',
+    author: 'Tô Hoài',
+    category: 'Thiếu nhi',
+    year: 1941,
+    quantity: 5,
+    borrowed: 5,
+  },
+  {
+    id: '3',
+    title: 'Nhà Giả Kim',
+    author: 'Paulo Coelho',
+    category: 'Tiểu thuyết',
+    year: 1988,
+    quantity: 7,
+    borrowed: 2,
+  },
+  {
+    id: '4',
+    title: 'Lược Sử Thời Gian',
+    author: 'Stephen Hawking',
+    category: 'Khoa học',
+    year: 1988,
+    quantity: 4,
+    borrowed: 0,
+  },
+  {
+    id: '5',
+    title: 'Giáo trình Cơ sở dữ liệu',
+    author: 'Trần Thị Bình',
+    category: 'Giáo trình',
+    year: 2020,
+    quantity: 8,
+    borrowed: 1,
+  },
+];
